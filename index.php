@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 </head>
 
@@ -57,13 +58,13 @@
 	<header class="desktop-header-1 d-flex align-items-start flex-column">
 		<nav>
 			<ul class="vertical-menu scrollspy">
-				<li class="active"><a href="#home"><i class="icon-home"></i>Home</a></li>
-				<li><a href="#about"><i class="icon-user-following"></i>About</a></li>
-				<li><a href="#skills"><i class="icon-layers"></i>Skills</a></li>
-				<li><a href="#experience"><i class="icon-graduation"></i>Education</a></li>
-				<li><a href="#experience"><i class="icon-briefcase"></i>Experience</a></li>
-				<li><a href="#projects"><i class="icon-grid"></i>Projects</a></li>
-				<li><a href="#contact"><i class="icon-bubbles"></i>Contact</a></li>
+				<li class="active"><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+				<li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
+				<li><a href="#skills"><i class="fa-solid fa-layer-group"></i>Skills</a></li>
+				<li><a href="#experience"><i class="fa-solid fa-graduation-cap"></i>Education</a></li>
+				<li><a href="#experience"><i class="fa-solid fa-briefcase"></i>Experience</a></li>
+				<li><a href="#projects"><i class="fa-solid fa-list"></i>Projects</a></li>
+				<li><a href="#contact"><i class="fa-solid fa-comments"></i>Contact</a></li>
 			</ul>
 		</nav>
 		<!-- site footer -->
@@ -90,9 +91,10 @@
 					<span>I'm a <span class="text-rotating">Network Engineer, Website Developer, Cloud Engineer</span></span>
 					<!-- social icons -->
 					<ul class="social-icons light list-inline mb-0 mt-4">
-                    	<li class="list-inline-item"><a href="https://www.linkedin.com/in/fachrul-abizar/" target="_blank"><i class="icon-social-linkedin"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.instagram.com/fachrul.abizar/" target="_blank"><i class="icon-social-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="mailto:fachrulabizar@metechso.com" target="_blank"><i class="icon-envelope"></i></a></li>
+                    	<li class="list-inline-item"><a href="https://www.linkedin.com/in/fachrul-abizar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/fachrul.abizar/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="mailto:fachrulabizar@metechso.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/fachrulabizar/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
 					</ul>
 					<!-- buttons -->
 					<div class="mt-4">
