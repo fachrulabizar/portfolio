@@ -2138,3 +2138,59 @@ body {
     margin-top: 100px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .additional-service-box {
+      margin-top: 10px; /* Mengurangi margin pada layar kecil */
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/* Animasi */
+.fade-in {
+    animation: fadeIn 0.5s ease; /* Nama animasi, durasi, dan fungsi-timing */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Optional: Add some styles for the new service box */
+#newServiceBox .service-box {
+  margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.additional-service-box {
+  margin-top: 20px;
+  opacity: 0; /* Atur opacity ke 0 secara default */
+  transition: opacity 0.5s ease; /* Tambahkan efek transition */
+}
+
+.fade-in {
+  opacity: 1; /* Atur opacity ke 1 saat class fade-in ditambahkan */
+}
+
+.triangle-up {
+  position: relative;
+}
+
+.triangle-up:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #fff transparent; /* Sesuaikan dengan warna service box */
+}

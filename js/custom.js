@@ -224,6 +224,55 @@ $(window).on('load', function() {
     };
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const serviceBoxes = document.querySelectorAll('.service-box');
+
+  serviceBoxes.forEach(function(serviceBox) {
+      serviceBox.addEventListener('click', function() {
+          const index = parseInt(serviceBox.dataset.index);
+          toggleServiceBox(index);
+      });
+  });
+
+  document.body.addEventListener('click', function(event) {
+      if (!event.target.closest('.service-box') && !event.target.closest('.additional-service-box')) {
+          closeAllServiceBoxes();
+      }
+  });
+});
+
+function toggleServiceBox(index) {
+  const additionalServiceBox = document.getElementById(`additionalServiceBox${index}`);
+  const isOpen = !additionalServiceBox.classList.contains('hidden');
+
+  closeAllServiceBoxes();
+
+  if (!isOpen) {
+      openServiceBox(additionalServiceBox);
+  }
+}
+
+function openServiceBox(additionalServiceBox) {
+  additionalServiceBox.classList.remove('hidden');
+  additionalServiceBox.classList.add('fade-in');
+}
+
+function closeAllServiceBoxes() {
+  const additionalServiceBoxes = document.querySelectorAll('.additional-service-box');
+
+  additionalServiceBoxes.forEach(function(box) {
+      if (!box.classList.contains('hidden')) {
+          box.classList.remove('fade-in');
+          box.classList.add('fade-out');
+
+          setTimeout(function() {
+              box.classList.add('hidden');
+              box.classList.remove('fade-out');
+          }, 50);
+      }
+  });
+}
+
 $(document).on('ready', function() {
     "use strict";
 

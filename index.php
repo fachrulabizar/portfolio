@@ -3,6 +3,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
 	<title>Fachrul Abizar</title>
 	<meta name="description" content="Fachrul Abizar - Personal Website">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -180,7 +183,6 @@
 				</div>
 			</div>
 		</section>
-
 		<!-- section services -->
 		<section id="skills">
 			<div class="container">
@@ -188,41 +190,66 @@
 				<h2 class="section-title wow fadeInUp">Skills</h2>
 				<div class="spacer" data-height="60"></div>
 				<div class="row">
-					<div class="col-sm">
-						<!-- service box -->
-						<div class="service-box rounded padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
-							<img src="images/skills/router.png" width="140px" height="1px" alt="Networking" />
-							<h3 class="mb-3 mt-0" style="color:#454360">Networking</h3>
-						</div>
-						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				<!-- Service Box 1-->
+				<div class="col-sm">
+					<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox1" data-index="1">
+						<img src="images/skills/router.png" width="140" height="140" alt="Service 1" />
+						<h3 class="mb-3 mt-0" style="color:#454360">Networking</h3>
 					</div>
-					<div class="col-sm">
-						<!-- service box -->
-						<div class="service-box rounded padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
-							<img src="images/skills/personal-computer.png" width="140px" height="1px" alt="Computer" />
-							<h3 class="mb-3 mt-0" style="color:#454360">Computer</h3>
-						</div>
-						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
-					</div>
-                    <div class="col-sm">
-						<!-- service box -->
-						<div class="service-box rounded padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
-							<img src="images/skills/cloud-computing.png" width="140px" height="1px" alt="Computer" />
-							<h3 class="mb-3 mt-0" style="color:#454360">Cloud Computing</h3>
-						</div>
-						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
-					</div>
-					<div class="col-sm">
-						<!-- service box -->
-						<div class="service-box rounded padding-30 text-center text-light shadow-blue" data-color="#F9D74C">
-							<img src="images/skills/coding.png" width="140px" height="1px" alt="UI/UX design" />
-							<h3 class="mb-3 mt-0" style="color:#454360">Web Developer</h3>
+					<div id="additionalServiceBox1" class="additional-service-box hidden triangle-up">
+						<div class="rounded padding-30 text-left text-light shadow-blue">
+							<h4 class="mb-3 mt-0" style="color:#454360">- Routing</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- Switching</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- Subnetting</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- Firewall</h4>
 						</div>
 					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+				<!-- Service Box 2-->
+				<div class="col-sm">
+					<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox2" data-index="2">
+						<img src="images/skills/personal-computer.png" width="140" height="140" alt="Service 2" />
+						<h3 class="mb-3 mt-0" style="color:#454360">Computer</h3>
+					</div>
+					<div id="additionalServiceBox2" class="additional-service-box hidden triangle-up">
+						<div class="rounded padding-30 text-left text-light shadow-blue">
+							<h4 class="mb-3 mt-0" style="color:#454360">- Troubleshooting</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- Hardware</h4>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+				<!-- Service Box 3-->
+				<div class="col-sm">
+					<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox3" data-index="3">
+						<img src="images/skills/cloud-computing.png" width="140" height="140" alt="Service 3" />
+						<h3 class="mb-3 mt-0" style="color:#454360">Cloud Computing</h3>
+					</div>
+					<div id="additionalServiceBox3" class="additional-service-box hidden triangle-up">
+						<div class="rounded padding-30 text-left text-light shadow-blue">
+							<h4 class="mb-3 mt-0" style="color:#454360">- AWS</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- GCP</h4>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+				<!-- Service Box 4-->
+				<div class="col-sm">
+					<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox4" data-index="4">
+						<img src="images/skills/coding.png" width="140" height="140" alt="Service 4" />
+						<h3 class="mb-3 mt-0" style="color:#454360">Web Developer</h3>
+					</div>
+					<div id="additionalServiceBox4" class="additional-service-box hidden triangle-up">
+						<div class="rounded padding-30 text-left text-light shadow-blue">
+							<h4 class="mb-3 mt-0" style="color:#454360">- Laravel</h4>
+							<h4 class="mb-3 mt-0" style="color:#454360">- Node</h4>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
 			</div>
 		</section>
-		
 		<!-- section experience -->
 		<section id="experience">
 			<div class="container">
@@ -263,9 +290,9 @@
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp">
 								<div class="content">
-									<span class="time">September 2021 - Present</span>
+									<span class="time">Present</span>
 									<h3 class="title">Medang Technology Solution (METECHSO)</h3>
-									<p>Founder</p>
+									<p>Freelance</p>
 								</div>
 							</div>
 							<!-- timeline item -->
@@ -323,7 +350,7 @@
 					</div>
 					<div class="col-md-8">
 						<!-- Contact Form -->
-						<form id="contact" class="contact-form mt-6" method="post" action="https://formspree.io/f/mlekrqkv">
+						<form id="contact" class="contact-form mt-6" method="post" action="send_email.php">
 							<div class="messages"></div>
 							<div class="row">
 								<div class="col-md-6">
