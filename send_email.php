@@ -1,6 +1,7 @@
 <?php
 // Proses formulir hanya jika metode POST digunakan
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+{
     // Ambil nilai dari formulir
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -30,9 +31,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ";
 
     // Kirim email
-    if (mail($to, $subject, $email_message, $headers)) {
+    if (mail($to, $subject, $email_message, $headers))
+    {
         echo "Message sent successfully.";
-    } else {
+    }
+    else
+    {
         echo "Failed to send message. Please try again later.";
     }
 }
