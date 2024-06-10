@@ -219,9 +219,16 @@
 						<div class="timeline exp bg-white rounded shadow-blue padding-30 overflow-hidden">
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp">
-								<div class="content"> <span class="time">Februari 2024 - Present</span>
-									<h3 class="title">PT. Modernesia Teknologi Informatika</h3>
-									<p>IT Infrastructure</p>
+								<div class="content"> <span class="time">April 2023 - Present</span>
+									<h3 class="title">PT. Medang Technology Solution</h3>
+									<p>Project Manager</p>
+								</div>
+							</div>
+							<!-- timeline item -->
+							<div class="timeline-container wow fadeInUp">
+								<div class="content"> <span class="time">Februari 2021 - Maret 2023</span>
+									<h3 class="title">PT. Bank Central Asia Tbk</h3>
+									<p>IT System Infrastructure Engineer</p>
 								</div>
 							</div>
 							<!-- timeline item -->
@@ -245,6 +252,13 @@
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 						<!-- timeline wrapper -->
 						<div class="timeline edu bg-white rounded shadow-blue padding-30 overflow-hidden">
+							<!-- timeline item -->
+							<div class="timeline-container wow fadeInUp">
+								<div class="content"> <span class="time">2024 - Present</span>
+									<h3 class="title">Universitas Pamulang</h3>
+									<p>S2 Teknik Informatika</p>
+								</div>
+							</div>
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">2019 - 2023</span>
@@ -355,6 +369,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.7.0/validator.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 	<script src="js/parallax.min.js"></script>
 	<script src="js/custom.js"></script>
 </body>

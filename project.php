@@ -279,4 +279,26 @@
 			</div>
 		</div>
 	</div>
+</div><!-- portfolio item E-commerce-->
+<div class="col-md-4 col-sm-6 grid-item creative design">
+	<a href="" data-toggle="modal" data-target="#exampleModalCenter12">
+		<div class="portfolio-item rounded shadow-blue">
+			<div class="details"> <span class="term">Website</span>
+				<h4 class="title" style="color:#5E5C7F">Point Of Sale Renata Label</h4> </div>
+			<div class="thumb"> <img src="images/works/renata.webp" alt="Portfolio-title" /> </div>
+		</div>
+	</a>
+	<div class="modal fade" id="exampleModalCenter12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content rounded">
+				<div class="modal-header">
+					<h2 class="modal-title" id="exampleModalLongTitle">Website Project</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+				</div>
+				<div class="modal-body"> <img src="images/works/renata.webp" alt="Title" />
+					<h2>Point Of Sale Renata Label</h2>
+					<p></p> <a href="https://spk.metechso.com/" target="_blank" class="btn btn-default">View Website</a> </div>
+			</div>
+		</div>
+	</div>
 </div>
