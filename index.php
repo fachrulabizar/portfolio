@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -9,10 +8,11 @@
 	<title>Fachrul Abizar</title>
 	<meta name="description" content="Fachrul Abizar - Personal Website">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<link rel="manifest" href="images/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/site.webmanifest">
+	<link rel="manifest" href="manifest.json">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<!-- STYLESHEETS -->
@@ -21,8 +21,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<style>
+		.blur {
+			filter: blur(4px); /* Atur tingkat blur sesuai kebutuhan */
+		}
+	</style>
 </head>
-
 <body>
 	<!-- Preloader -->
 	<div id="preloader">
@@ -146,8 +150,9 @@
 						<div class="rounded bg-white shadow-blue padding-30">
 							<div class="row">
 								<!-- about text -->
-								<h4 align="justify" justify="inter-word">I am Fachrul Abizar, a graduate of Informatics Engineering from Pamulang University. I have special skills in the field of networking, computers and website development, I am proficient in subnetting, switching, routing, firewall, linux, server, laravel, codeigniter, SQL, MySQL, PHP, API, Git, Cloud Computing (AWS, Azure, GCP).
-								</h4> </div>
+								<h4 align="justify" justify="inter-word">I am a fullstack developer with deep expertise in developing applications using Laravel, React, JavaScript, and PHP. I also have a solid experience in managing cloud infrastructure using AWS services. With a proven track record of successful projects, I am skilled in designing, developing, and maintaining efficient and reliable software solutions.</h4>
+								<div class="mt-8"> <a href="#contact" class="btn btn-default">CV</a> </div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -169,7 +174,8 @@
 								<h4 class="mb-2 mt-0" style="color:#454360">- Routing</h4>
 								<h4 class="mb-2 mt-0" style="color:#454360">- Switching</h4>
 								<h4 class="mb-2 mt-0" style="color:#454360">- Subnetting</h4>
-								<h4 class="mb-2 mt-0" style="color:#454360">- Firewall</h4> </div>
+								<h4 class="mb-2 mt-0" style="color:#454360">- Firewall</h4>
+							</div>
 						</div>
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
@@ -180,7 +186,8 @@
 						<div id="additionalServiceBox2" class="additional-service-box hidden triangle-up">
 							<div class="rounded padding-30 text-left text-light shadow-blue">
 								<h4 class="mb-2 mt-0" style="color:#454360">- Troubleshooting</h4>
-								<h4 class="mb-2 mt-0" style="color:#454360">- Hardware</h4> </div>
+								<h4 class="mb-2 mt-0" style="color:#454360">- Hardware</h4>
+							</div>
 						</div>
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
@@ -191,7 +198,8 @@
 						<div id="additionalServiceBox3" class="additional-service-box hidden triangle-up">
 							<div class="rounded padding-30 text-left text-light shadow-blue">
 								<h4 class="mb-2 mt-0" style="color:#454360">- AWS</h4>
-								<h4 class="mb-2 mt-0" style="color:#454360">- GCP</h4> </div>
+								<h4 class="mb-2 mt-0" style="color:#454360">- GCP</h4>
+							</div>
 						</div>
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
@@ -202,7 +210,12 @@
 						<div id="additionalServiceBox4" class="additional-service-box hidden triangle-up">
 							<div class="rounded padding-30 text-left text-light shadow-blue">
 								<h4 class="mb-2 mt-0" style="color:#454360">- Laravel</h4>
-								<h4 class="mb-2 mt-0" style="color:#454360">- Node</h4> </div>
+								<h4 class="mb-2 mt-0" style="color:#454360">- React</h4>
+								<h4 class="mb-2 mt-0" style="color:#454360">- Javascript</h4>
+								<h4 class="mb-2 mt-0" style="color:#454360">- PHP</h4>
+								<h4 class="mb-2 mt-0" style="color:#454360">- API</h4>
+								<h4 class="mb-2 mt-0" style="color:#454360">- Git</h4>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -218,47 +231,42 @@
 						<!-- timeline wrapper -->
 						<div class="timeline exp bg-white rounded shadow-blue padding-30 overflow-hidden">
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp">
+							<div class="timeline-container wow fadeInUp blur">
 								<div class="content"> <span class="time">April 2023 - Present</span>
 									<h3 class="title">PT. Medang Technology Solution</h3>
 									<p>Project Manager</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp">
+							<div class="timeline-container wow fadeInUp blur">
 								<div class="content"> <span class="time">Februari 2021 - Maret 2023</span>
 									<h3 class="title">PT. Bank Central Asia Tbk</h3>
 									<p>IT System Infrastructure Engineer</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp">
-								<div class="content"> <span class="time">August 2021 - November 2021</span>
+							<div class="timeline-container wow fadeInUp blur">
+								<div class="content"> <span class="time">August 2020 - November 2020</span>
 									<h3 class="title">PT. Swadharma Duta Data</h3>
 									<p>Part Time</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="timeline-container wow fadeInUp blur" data-wow-delay="0.2s">
 								<div class="content"> <span class="time">August 2017 - October 2017</span>
 									<h3 class="title">PT. Ecosif Multi Kreasi</h3>
 									<p>PKL</p>
 								</div>
 							</div>
-							<!-- main line --><span class="line"></span> </div>
+							<!-- main line -->
+							<span class="line blur"></span>
+						</div>
 					</div>
 					<div class="col-md-6">
 						<!-- responsive spacer -->
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 						<!-- timeline wrapper -->
 						<div class="timeline edu bg-white rounded shadow-blue padding-30 overflow-hidden">
-							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp">
-								<div class="content"> <span class="time">2024 - Present</span>
-									<h3 class="title">Universitas Pamulang</h3>
-									<p>S2 Teknik Informatika</p>
-								</div>
-							</div>
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">2019 - 2023</span>
@@ -275,7 +283,9 @@
 									<p>Nilai Akhir 85.4</p>
 								</div>
 							</div>
-							<!-- main line --><span class="line"></span> </div>
+							<!-- main line -->
+							<span class="line"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -289,8 +299,8 @@
 				<!-- portolio wrapper -->
 				<div class="row portfolio-wrapper">
 					<?php
-	                include "project.php";
-	            ?>
+					include "project.php";
+					?>
 				</div>
 			</div>
 		</section>
@@ -310,7 +320,7 @@
 					</div>
 					<div class="col-md-8">
 						<!-- Contact Form -->
-						<form id="contact" class="contact-form mt-6" method="post" action="send_email.php">
+						<form id="contact" class="contact-form mt-6" method="post" action="https://formspree.io/f/mlekrqkv">
 							<div class="messages"></div>
 							<div class="row">
 								<div class="col-md-6">
@@ -352,7 +362,8 @@
 		</section>
 		<div class="spacer" data-height="96"></div>
 	</main>
-	<!-- Go to top button --><a href="javascript:" id="return-to-top"><i class="icon-arrow-up"></i></a>
+	<!-- Go to top button -->
+	<a href="javascript:" id="return-to-top"><i class="icon-arrow-up"></i></a>
 	<!-- SCRIPTS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -369,9 +380,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.7.0/validator.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 	<script src="js/parallax.min.js"></script>
 	<script src="js/custom.js"></script>
+    <script>
+        // Register the Service Worker for PWA
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+            .then(() => console.log('Service Worker registered successfully.'))
+            .catch(error => console.log('Service Worker registration failed:', error));
+        }
+    </script>
 </body>
-
 </html>
