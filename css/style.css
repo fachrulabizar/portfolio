@@ -1110,7 +1110,7 @@ section.home.light .social-icons li a:hover {
 	background-image: url("../images/map.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	min-height: 200px;
+	min-height: 100px;
 }
 
 .contact-info h3 {
