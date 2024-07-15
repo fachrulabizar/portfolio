@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Fachrul Abizar - Personal Website">
+    <meta name="keywords" content="fachrul, abizar, fachrulabizar, fachrul abizar, portfolio, portofolio, programmer, fullstack developer, fullstack, developer, aws">
+    <meta name="author" content="Fachrul Abizar">
 	<title>Fachrul Abizar</title>
-	<meta name="description" content="Fachrul Abizar - Personal Website">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -233,15 +233,15 @@
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp blur">
 								<div class="content"> <span class="time">April 2023 - Present</span>
-									<h3 class="title">PT. Medang Technology Solution</h3>
-									<p>Project Manager</p>
+									<h3 class="title">PT. Digital Siap Transaksi</h3>
+									<p>IT Infrastructure Engineer</p>
 								</div>
 							</div>
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp blur">
-								<div class="content"> <span class="time">Februari 2021 - Maret 2023</span>
-									<h3 class="title">PT. Bank Central Asia Tbk</h3>
-									<p>IT System Infrastructure Engineer</p>
+								<div class="content"> <span class="time">Februari 2021 - Present</span>
+									<h3 class="title">Medang Technology Solution</h3>
+									<p>Freelance</p>
 								</div>
 							</div>
 							<!-- timeline item -->
