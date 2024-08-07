@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,18 +16,13 @@
 	<link rel="manifest" href="manifest.json">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<!-- STYLESHEETS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-	<style>
-		.blur {
-			filter: blur(4px); /* Atur tingkat blur sesuai kebutuhan */
-		}
-	</style>
 </head>
+
 <body>
 	<!-- Preloader -->
 	<div id="preloader">
@@ -58,13 +54,14 @@
 	<header class="desktop-header-1 d-flex align-items-start flex-column">
 		<nav>
 			<ul class="vertical-menu scrollspy">
-				<li class="active"><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
-				<li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
-				<li><a href="#skills"><i class="fa-solid fa-layer-group"></i>Skills</a></li>
-				<li><a href="#experience"><i class="fa-solid fa-briefcase"></i>Experience</a></li>
-				<li><a href="#experience"><i class="fa-solid fa-graduation-cap"></i>Education</a></li>
-				<li><a href="#projects"><i class="fa-solid fa-list"></i>Projects</a></li>
-				<li><a href="#contact"><i class="fa-solid fa-comments"></i>Contact</a></li>
+				<li class="active"><a href="#home"><i class="icon-home"></i>Home</a></li>
+				<li><a href="#about"><i class="icon-user"></i>About</a></li>
+				<li><a href="#statistics"><i class="icon-chart"></i>Statistics</a></li>
+				<li><a href="#skills"><i class="icon-layers"></i>Skills</a></li>
+				<li><a href="#experience"><i class="icon-briefcase"></i>Experience</a></li>
+				<li><a href="#experience"><i class="icon-graduation"></i>Education</a></li>
+				<li><a href="#projects"><i class="icon-list"></i>Projects</a></li>
+				<li><a href="#contact"><i class="icon-bubbles"></i>Contact</a></li>
 			</ul>
 		</nav>
 		<!-- site footer -->
@@ -134,13 +131,14 @@
 				</div>
 			</div>
 		</section>
+		
 		<!-- section about -->
 		<section id="about">
 			<div class="container">
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">About Me</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row">
+				<div class="row wow fadeInUp">
 					<div class="col-md-3">
 						<div class="text-center text-md-left">
 							<!-- avatar image --><img src="images/about/IMG_0552_cropped-min.png" width="230px" alt="Fachrul Abizar" /> </div>
@@ -150,7 +148,7 @@
 						<div class="rounded bg-white shadow-blue padding-30">
 							<div class="row">
 								<!-- about text -->
-								<h4 align="justify" justify="inter-word">I am a fullstack developer with deep expertise in developing applications using Laravel, React, JavaScript, and PHP. I also have a solid experience in managing cloud infrastructure using AWS services. With a proven track record of successful projects, I am skilled in designing, developing, and maintaining efficient and reliable software solutions.</h4>
+								<h4 align="justify" justify="inter-word">I am a fullstack developer, experienced in building web applications using React for the frontend, Laravel for the backend, MySQL and PostgreSQL for the database, and deploying them on AWS. With a track record of successful projects, I am skilled in designing, developing, and maintaining efficient and reliable software solutions.</h4>
 								<div class="mt-8"> <a href="#contact" class="btn btn-default">CV</a> </div>
 							</div>
 						</div>
@@ -158,13 +156,44 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- section stats -->
+		<section id="statistics">
+			<div class="container">
+				<!-- section title -->
+				<h2 class="section-title wow fadeInUp">Statistics</h2>
+				<div class="spacer" data-height="60"></div>
+				<div class="row wow fadeInUp">
+					<div class="col-md-12">
+						<div class="service-box rounded padding-30 text-center text-light shadow-blue">
+							<div class="col-sm">
+								<img src="https://ghchart.rshah.org/269abf/anuraghazra" />
+								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
+							</div>
+							<div class="col-sm">
+								<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact" />
+								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
+							</div>
+							<div class="col-sm">
+								<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&show=reviews,prs_merged" />
+								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
+							</div>
+							<div class="col-sm">
+								<img src="https://github-readme-streak-stats.herokuapp.com/?user=anuraghazra&" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
 		<!-- section services -->
 		<section id="skills">
 			<div class="container">
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Skills</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row">
+				<div class="row wow fadeInUp">
 					<!-- Service Box 1-->
 					<div class="col-sm">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox1" data-index="1"> <img src="images/skills/router.png" width="100" height="100" alt="Service 1" />
@@ -220,13 +249,14 @@
 					</div>
 				</div>
 		</section>
+
 		<!-- section experience -->
 		<section id="experience">
 			<div class="container">
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Experience & Education</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row">
+				<div class="row wow fadeInUp">
 					<div class="col-md-6">
 						<!-- timeline wrapper -->
 						<div class="timeline exp bg-white rounded shadow-blue padding-30 overflow-hidden">
@@ -290,6 +320,7 @@
 				</div>
 			</div>
 		</section>
+
 		<!-- section works -->
 		<section id="projects">
 			<div class="container">
@@ -297,20 +328,21 @@
 				<h2 class="section-title wow fadeInUp">My Projects</h2>
 				<div class="spacer" data-height="60"></div>
 				<!-- portolio wrapper -->
-				<div class="row portfolio-wrapper">
+				<div class="row portfolio-wrapper wow fadeInUp">
 					<?php
 					include "project.php";
 					?>
 				</div>
 			</div>
 		</section>
+
 		<!-- section contact -->
 		<section id="contact">
 			<div class="container">
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Get In Touch</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row">
+				<div class="row wow fadeInUp">
 					<div class="col-md-4">
 						<!-- contact info -->
 						<div class="contact-info">
