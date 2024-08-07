@@ -138,13 +138,13 @@
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">About Me</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row wow fadeInUp">
-					<div class="col-md-3">
+				<div class="row">
+					<div class="col-md-3 wow fadeInUp">
 						<div class="text-center text-md-left">
 							<!-- avatar image --><img src="images/about/IMG_0552_cropped-min.png" width="230px" alt="Fachrul Abizar" /> </div>
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
-					<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="col-md-9 triangle-left-md triangle-top-sm wow fadeInUp">
 						<div class="rounded bg-white shadow-blue padding-30">
 							<div class="row">
 								<!-- about text -->
@@ -163,8 +163,8 @@
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Statistics</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row wow fadeInUp">
-					<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12 wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue">
 							<div class="col-sm">
 								<img src="https://ghchart.rshah.org/269abf/anuraghazra" />
@@ -193,9 +193,9 @@
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Skills</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row wow fadeInUp">
+				<div class="row">
 					<!-- Service Box 1-->
-					<div class="col-sm">
+					<div class="col-sm wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox1" data-index="1"> <img src="images/skills/router.png" width="100" height="100" alt="Service 1" />
 							<h3 class="mb-3 mt-0" style="color:#454360">Networking</h3> </div>
 						<div id="additionalServiceBox1" class="additional-service-box hidden triangle-up">
@@ -209,7 +209,7 @@
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
 					<!-- Service Box 2-->
-					<div class="col-sm">
+					<div class="col-sm wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox2" data-index="2"> <img src="images/skills/personal-computer.png" width="100" height="100" alt="Service 2" />
 							<h3 class="mb-3 mt-0" style="color:#454360">Computer</h3> </div>
 						<div id="additionalServiceBox2" class="additional-service-box hidden triangle-up">
@@ -221,7 +221,7 @@
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
 					<!-- Service Box 3-->
-					<div class="col-sm">
+					<div class="col-sm wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox3" data-index="3"> <img src="images/skills/cloud-computing.png" width="100" height="100" alt="Service 3" />
 							<h3 class="mb-3 mt-0" style="color:#454360">Cloud Computing</h3> </div>
 						<div id="additionalServiceBox3" class="additional-service-box hidden triangle-up">
@@ -233,7 +233,7 @@
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
 					<!-- Service Box 4-->
-					<div class="col-sm">
+					<div class="col-sm wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue" id="serviceBox4" data-index="4"> <img src="images/skills/coding.png" width="100" height="100" alt="Service 4" />
 							<h3 class="mb-3 mt-0" style="color:#454360">Web Developer</h3> </div>
 						<div id="additionalServiceBox4" class="additional-service-box hidden triangle-up">
@@ -256,8 +256,8 @@
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Experience & Education</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row wow fadeInUp">
-					<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6 wow fadeInUp">
 						<!-- timeline wrapper -->
 						<div class="timeline exp bg-white rounded shadow-blue padding-30 overflow-hidden">
 							<!-- timeline item -->
@@ -292,7 +292,7 @@
 							<span class="line blur"></span>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 wow fadeInUp">
 						<!-- responsive spacer -->
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 						<!-- timeline wrapper -->
@@ -328,7 +328,7 @@
 				<h2 class="section-title wow fadeInUp">My Projects</h2>
 				<div class="spacer" data-height="60"></div>
 				<!-- portolio wrapper -->
-				<div class="row portfolio-wrapper wow fadeInUp">
+				<div class="row portfolio-wrapper">
 					<?php
 					include "project.php";
 					?>
@@ -342,8 +342,8 @@
 				<!-- section title -->
 				<h2 class="section-title wow fadeInUp">Get In Touch</h2>
 				<div class="spacer" data-height="60"></div>
-				<div class="row wow fadeInUp">
-					<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-4 wow fadeInUp">
 						<!-- contact info -->
 						<div class="contact-info">
 							<h3 class="wow fadeInUp">Let's talk about everything!</h3>
@@ -355,28 +355,28 @@
 						<form id="contact" class="contact-form mt-6" method="post" action="https://formspree.io/f/mlekrqkv">
 							<div class="messages"></div>
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-md-6 wow fadeInUp">
 									<!-- Name input -->
 									<div class="form-group">
 										<input type="text" class="form-control shadow-blue" name="name" id="name" placeholder="Your name" required="required" data-error="Name is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-6 wow fadeInUp">
 									<!-- Email input -->
 									<div class="form-group">
 										<input type="email" class="form-control shadow-blue" name="email" id="email" placeholder="Email address" required="required" data-error="Email is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-12">
+								<div class="col-md-12 wow fadeInUp">
 									<!-- Subject input -->
 									<div class="form-group">
 										<input type="text" class="form-control shadow-blue" name="subject" id="subject" placeholder="Subject" required="required" data-error="Subject is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-12">
+								<div class="col-md-12 wow fadeInUp">
 									<!-- Message textarea -->
 									<div class="form-group">
 										<textarea name="message" id="message" class="form-control shadow-blue" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
@@ -384,7 +384,7 @@
 									</div>
 								</div>
 							</div>
-							<button type="submit" id="submit" class="btn btn-default">Send Message</button>
+							<button type="submit" id="submit" class="btn btn-default wow fadeInUp">Send Message</button>
 							<!-- Send Button -->
 						</form>
 						<!-- Contact Form end -->
