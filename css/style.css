@@ -463,7 +463,7 @@ header.desktop-header-1 {
 	background: linear-gradient(135deg, #2f88bd, #3f79b7, #5563aa, #5469ae, #6857a6);
 	background-size: 200% 200%;
 	animation: gradient 10s ease infinite;
-	padding: 50px 40px 40px;
+	padding: 0px 40px 35px;
 	position: fixed;
 	left: 0;
 	overflow-y: auto;
@@ -633,7 +633,7 @@ header.desktop-header-1.light .vertical-menu li i {
 /*                      SECTIONS                             
 /*=================================================================*/
 .blur {
-	filter: blur(2px); /* Atur tingkat blur sesuai kebutuhan */
+	filter: blur(4px); /* Atur tingkat blur sesuai kebutuhan */
 }
 
 main.content {
