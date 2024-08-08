@@ -166,12 +166,9 @@
 				<div class="row">
 					<div class="col-md-12 wow fadeInUp">
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue">
+						<div class="spacer d-md-none d-lg-none" data-height="25"></div>
 							<div class="col-sm">
-								<img src="https://ghchart.rshah.org/269abf/anuraghazra" />
-								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
-							</div>
-							<div class="col-sm">
-								<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact" />
+								<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafifathurr&layout=compact" />
 								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
 							</div>
 							<div class="col-sm">
@@ -179,7 +176,11 @@
 								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
 							</div>
 							<div class="col-sm">
-								<img src="https://github-readme-streak-stats.herokuapp.com/?user=anuraghazra&" />
+								<img src="https://github-readme-streak-stats.herokuapp.com/?user=fachrulabizar&" />
+								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
+							</div>
+							<div class="col-sm">
+								<img src="https://ghchart.rshah.org/269abf/fachrulabizar" />
 							</div>
 						</div>
 					</div>
@@ -302,7 +303,6 @@
 								<div class="content"> <span class="time">2019 - 2023</span>
 									<h3 class="title">Universitas Pamulang</h3>
 									<p>S1 Teknik Informatika</p>
-									<p>IPK 3.25</p>
 								</div>
 							</div>
 							<!-- timeline item -->
@@ -310,7 +310,6 @@
 								<div class="content"> <span class="time">2016 - 2019</span>
 									<h3 class="title">SMK PGRI 31 Legok</h3>
 									<p>Teknik Komputer Jaringan</p>
-									<p>Nilai Akhir 85.4</p>
 								</div>
 							</div>
 							<!-- main line -->
