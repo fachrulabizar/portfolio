@@ -71,7 +71,7 @@
 				<h4 class="title" style="color:#454360">Personal Portfolio Website</h4>
 			</div>
 			<div class="thumb">
-				<img src="images/works/fachrulabizar.metechso.com.png" alt="Portfolio-title" />
+				<img src="images/works/fachrulabizar.id.png" alt="Portfolio-title" />
 			</div>
 		</div>
 	</a>
@@ -85,7 +85,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					<img src="images/works/fachrulabizar.metechso.com.png" alt="Title" />
+					<img src="images/works/fachrulabizar.id.png" alt="Title" />
 					<h2>Personal Portfolio Website</h2>
 					<!-- <p align="justify">Website portfolio yang menjelaskan tentang</p> -->
 					<a href="https://fachrulabizar.id" target="_blank" class="btn btn-default">View Website</a>
