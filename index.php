@@ -168,11 +168,11 @@
 						<div class="service-box rounded padding-30 text-center text-light shadow-blue">
 						<div class="spacer d-md-none d-lg-none" data-height="25"></div>
 							<div class="col-sm">
-								<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafifathurr&layout=compact" />
+								<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fachrulabizar&layout=compact" />
 								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
 							</div>
 							<div class="col-sm">
-								<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&show=reviews,prs_merged" />
+								<img src="https://github-readme-stats.vercel.app/api?username=fachrulabizar&show_icons=true&show=reviews,prs_merged" />
 								<div class="spacer d-md-none d-lg-none" data-height="10"></div>
 							</div>
 							<div class="col-sm">
@@ -262,35 +262,35 @@
 						<!-- timeline wrapper -->
 						<div class="timeline exp bg-white rounded shadow-blue padding-30 overflow-hidden">
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp blur">
+							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">April 2023 - Present</span>
 									<h3 class="title">PT. Digital Siap Transaksi</h3>
 									<p>IT Infrastructure Engineer</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp blur">
+							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">Februari 2021 - Present</span>
 									<h3 class="title">Medang Technology Solution</h3>
 									<p>Freelance</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp blur">
+							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">August 2020 - November 2020</span>
 									<h3 class="title">PT. Swadharma Duta Data</h3>
 									<p>Part Time</p>
 								</div>
 							</div>
 							<!-- timeline item -->
-							<div class="timeline-container wow fadeInUp blur" data-wow-delay="0.2s">
+							<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
 								<div class="content"> <span class="time">August 2017 - October 2017</span>
 									<h3 class="title">PT. Ecosif Multi Kreasi</h3>
 									<p>PKL</p>
 								</div>
 							</div>
 							<!-- main line -->
-							<span class="line blur"></span>
+							<span class="line"></span>
 						</div>
 					</div>
 					<div class="col-md-6 wow fadeInUp">
@@ -298,6 +298,13 @@
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 						<!-- timeline wrapper -->
 						<div class="timeline edu bg-white rounded shadow-blue padding-30 overflow-hidden">
+							<!-- timeline item -->
+							<div class="timeline-container wow fadeInUp">
+								<div class="content"> <span class="time">2025 - Present</span>
+									<h3 class="title">Universitas Pamulang</h3>
+									<p>S2 Teknik Informatika</p>
+								</div>
+							</div>
 							<!-- timeline item -->
 							<div class="timeline-container wow fadeInUp">
 								<div class="content"> <span class="time">2019 - 2023</span>
